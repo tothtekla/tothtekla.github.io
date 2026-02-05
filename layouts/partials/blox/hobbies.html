@@ -1,0 +1,18 @@
+{{- with site.Data.authors.me.hobbies -}}
+<div class="prose-md prose dark:prose-invert">
+  <h2 id="hobbies">Hobbies</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 2rem 0;">
+    {{- range . }}
+    <div style="padding: 1.5rem; border: 1px solid rgba(200,200,200,0.2); border-radius: 8px; text-align: center;">
+      {{- if .image }}
+      <img src="{{ .image.src | relURL }}" alt="{{ .image.alt }}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;" />
+      {{- else if .icon }}
+      <div style="font-size: 3rem; margin-bottom: 1rem;">{{ .icon }}</div>
+      {{- end }}
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}

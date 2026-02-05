@@ -1,0 +1,8 @@
+{{- range $i, $author := .authors -}}
+  {{- if eq $author "Tekla Tóth" -}}
+    <span class="text-primary font-bold">{{ $author }}</span>
+  {{- else -}}
+    {{ $author }}
+  {{- end -}}
+  {{- if lt (add $i 1) (len .authors) }}, {{ end -}}
+{{- end -}}

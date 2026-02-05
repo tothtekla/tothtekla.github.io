@@ -1,0 +1,10 @@
+{{/* Custom citation partial for publications list */}}
+<div class="publication-citation">
+  <div class="publication-title">{{ .title }}</div>
+  <div class="publication-authors">
+    {{ partial "citation_author.html" . }}
+  </div>
+  <div class="publication-meta">
+    {{ .date | time.Format "2006" }} &mdash; {{ .publication }}
+  </div>
+</div>

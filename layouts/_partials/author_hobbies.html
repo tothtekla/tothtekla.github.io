@@ -1,0 +1,15 @@
+{{ with site.Data.authors.me.hobbies }}
+<div class="author-hobbies" style="margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #ddd;">
+  <h3 style="margin-bottom: 1.5rem;">Hobbies</h3>
+  <div class="hobby-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+    {{ range . }}
+    <div class="hobby-card" style="padding: 1.5rem; border: 1px solid #eee; border-radius: 8px; text-align: center;">
+      {{ if .image }}<img src="{{ .image.src | relURL }}" alt="{{ .image.alt }}" class="hobby-image" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;" />{{ end }}
+      {{ if .icon }}<div class="hobby-icon" style="font-size: 3rem; margin-bottom: 1rem;">{{ .icon }}</div>{{ end }}
+      <h4 style="margin: 1rem 0 0.5rem 0;">{{ .title }}</h4>
+      <p style="color: #666; font-size: 0.95rem; line-height: 1.5;">{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

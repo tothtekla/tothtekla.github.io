@@ -1,116 +1,168 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: "Tekla Tóth"
+  given: "Tekla"
+  family: "Tóth"
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
 postnominals:
-  - PhD
-  - MIEEE
+  - "PhD"
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+  icon: "🚲"
+role: "Researcher in Computer Vision"
+bio: "I am research assistant of computer vision at the Eötvös Loránd University, Hungary. My research interests focus on and multimodal data analysis and sensor calibration including image, 3D, and geospatial data for autonomous systems, robotics, geoinformatics, and other AI applications.\n"
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: ELTE
+    url: https://www.inf.elte.hu/en/
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
+    url: 'mailto:tekla.toth.it@gmail.com'
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/teklatoth/
+    label: E-mail Me
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.hu/citations?user=u7xv-ZkAAAAJ&hl=en
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Tekla-Toth
+  - icon: brands/github
+    url: https://github.com/tothtekla
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+    url: https://orcid.org/0000-0002-7439-0473
+  #- icon: brands/instagram
+  #  url: https://www.instagram.com/tekla_toth_/
 interests:
-  - Large Language Models
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - 2D-3D Data Analysis
+  - Sensor Fusion
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - area: PhD in Computer Vision
+    institution: Eötvös Loránd University (ELTE)
+    start: 2018-09-01
+    end: 2024-02-26
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Thesis on Target-Based LiDAR-Camera Calibration for Robotics and Autonomous Systems.
+      Supervised by [Prof Levente Hajder](https://www.inf.elte.hu/en/staff/levente-hajder) and reviewed by [Prof Tomas Svoboda](https://cmp.felk.cvut.cz/~svoboda/) and [Prof Clemens Arth](https://www.tugraz.at/institute/icg/research/team-schmalstieg/team/clemens-arth)
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+      text: 'Read Thesis'
+      url: 'https://ikelte-my.sharepoint.com/:b:/g/personal/zxkrr9_inf_elte_hu/EX4zONXpXTVDt8ImBtQWGiIBl__Zvw2gHIMhvdCa2RO7Ew?e=PxO2de'
+      icon: "hero/arrow-down-tray"
+  - area: M.Sc. in Computer Science
+    institution: Eötvös Loránd University (ELTE)
+    start: 2016-02-01
+    end: 2018-06-30
+    summary: |
+      Thesis: Geometric shape reconstruction in LiDAR point clouds
+  - area: B.Sc. in Engineering Information Technology
+    institution: University of Pannonia
+    start: 2012-09-01
+    end: 2016-01-31
+    summary: |
+      Thesis: Designing Matlab software for analyzing body surface potential mapping
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  - role: "Assistant Professor / Research Fellow"
+    org: "Faculty of Informatics, Eötvös Loránd University (ELTE)"
+    start: "2021-09-01"
+    summary: "Teaching:\n
+    - -3D omputer vision (BSc, MSc)\n- -Computer graphics (BSc)\n- -General-purpose computing on graphics processing units (BSc, MSc)\n- -Geoinformatics and remote sensing laboratory (MSc)\n"
+    # button:
+    #   text: "View portfolio"
+    #   url: "/"
+    #   icon: "hero/arrow-down-tray"
+  - role: "External consultant for Computer Vision Research"
+    org: "Robert Bosch Kft."
+    start: "2023-09-01"
+    end: "2024-12-31"
+    summary: "Worked on remote sensing-based sensor data analysis in Python, object detection with NNs, and scene understanding.\n"
+  - role: "Research Engineer Intern"
+    org: "Facebook Reality Labs (now Meta), Oculus virtual reality products"
+    start: "2020-09-01"
+    end: "2020-12-01"
+    summary: "Worked on sensor calibration for VR headset in C++.\n"
+  - role: "Software Developer"
+    org: "Machine Perception Research Laboratory, Hungarian Academy of Science"
+    start: "2016-07-01"
+    end: "2018-08-31"
+    summary: "Worked on Video stabilization and object detection in LiDAR point cloud.\n"
+  - role: "Software Developer Intern"
+    org: "Innomed Medical Zrt."
+    start: "2015-06-01"
+    end: "2015-08-31"
+    summary: "Worked on ECG signal classifier code refactoring in C.\n"
+  - role: "Software Developer Intern"
+    org: "Bioelectric Cardiac Imaging Laboratory, University of Pannonia"
+    start: "2013-01-01"
+    end: "2015-12-31"
+    summary: "Worked on ECG signal processing and body surface potential mapping.\n"
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
+# Personal hobbies (short descriptions + optional image/icon)
+hobbies:
+  - title: "Custom Furniture"
+    description: "Designing and building functional pieces with a focus on precision. I swear by Blum runner systems for smooth motion and Parkside tools for... well, everything. P.S. When I walked into the board cutting shop and they already knew me by name, I shed a tear."
+    image:
+      src: "/uploads/stairs.JPG"
+      alt: "Custom-built wooden table"
+  - title: "Cycling"
+    description: "Road, trekking, or indoor—terrain is irrelevant as long as I'm pedaling. I also bring that energy to the studio as an indoor cycling trainer, helping others hit their peak output."
+    image:
+      src: "/uploads/cycling.jpg"
+      alt: "Cyclist on a mountain trail"
+  - title: "Baking"
+    description: "A dedicated home baker on a quest to perfect the oatmeal cookie in a thousand different ways. And let's be honest: not using a food thermometer for your macarons is just Russian roulette—and true Ischler cookies contain chocolate filling."
+    image:
+      src: "/uploads/baking.jpg"
+      alt: "Freshly baked bread"
+# skills:
+#    name: "Technical Skills"
+#     items:
+#       - label: "Python"
+#         level: 5
+#       - label: "Machine Learning"
+#         level: 5
+#       - label: "Cloud Computing"
+#         level: 4
+#   - name: "Research & Communication"
+#     items:
+#       - label: "Academic Writing"
+#         level: 5
+#       - label: "Conference Presentations"
+#         level: 4
+#       - label: "Grant Proposals"
+#         level: 4
 languages:
-  - name: English
+  - name: "Hungarian"
     level: 5
-    label: Native
-  - name: Spanish
+    label: "Native"
+  - name: "English"
     level: 4
-    label: Fluent
-
+    label: "Fluent"
+  - name: "German"
+    level: 3
+    label: "Intermediate (Passive)"
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: "Member of the AI Agentic Discovery Hackathon Winner Team"
+    awarder: "HUN-REN"
+    date: "2026-01-16"
+    summary: "Awarded for exceptional contribution to advancing AI-first scientific approaches, showcasing innovation, teamwork, and scientific excellence."
+    url: "https://www.hun-ren.hu/ai-agentic-discovery-hackathon-winner-team-announced/"
+    icon: "hero/user-group"
+  - title: "PhD Prize"
+    awarder: "NJSZT KÉPAF"
+    date: "2025-01-30"
+    summary: "Awarded for her Ph.D. Thesis on Target-Based LiDAR-Camera Calibration for Robotics and Autonomous Systems."
+    url: "https://kepaf.njszt.hu/en/phddij.html"
+    icon: "hero/academic-cap"
+  - title: "Kuba Attila Prize"
+    awarder: "NJSZT KÉPAF"
+    date: "2023-01-25"
+    summary: "Awarded to those young scientists who have reached outstanding results in the field of digital image processing, computer vision, or pattern recognition."
+    url: "http://kepaf.njszt.hu/en/kubadij.html"
+    icon: "hero/academic-cap"
+  - title: "Best Female Thrower of the Boot Throwing Contest"
+    awarder: "NJSZT KÉPAF"
+    date: "2023-01-25"
+    summary: "No worlds needed... Just a good throw and a lot of fun! Awarded for the best throw in the annual boot throwing contest at the NJSZT KÉPAF conference."
+    url: "http://kepaf.njszt.hu/en/kubadij.html"
+    icon: "hero/rocket-launch"

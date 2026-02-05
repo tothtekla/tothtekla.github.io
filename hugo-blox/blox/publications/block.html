@@ -1,0 +1,6 @@
+{{/* Custom publications block for highlighting author */}}
+<div class="publications-list">
+  {{ range .pages }}
+    {{ partial "citation.html" . }}
+  {{ end }}
+</div>
