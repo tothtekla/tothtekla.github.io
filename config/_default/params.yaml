@@ -6,8 +6,9 @@ hugoblox:
     tagline: Researcher in Computer Vision
     description: Tekla Toth is a Research Assistant @ ELTE. Expert in computer vision, multimodal data analysis & sensor calibration for robotics, geoinformatics, and AI.
   theme:
-    mode: dark
-    pack: dracula
+    pack:
+      dark: "dracula"    # Bold colors for night
+      light: "minimal"   # Clean GitHub style for day
     colors:
       primary: ""
       secondary: ""
