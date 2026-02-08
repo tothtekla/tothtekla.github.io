@@ -23,5 +23,7 @@ keywords:
 links:
   - type: source
     url: https://doi.org/10.1109/ICRA40945.2020.9197316
+  - type : video
+    url: https://youtu.be/P79h077upMw?si=33r0kOSHdHG1SD-8
 featured: false
 ---
